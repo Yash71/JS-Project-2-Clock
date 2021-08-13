@@ -1,0 +1,57 @@
+html{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+.clk{
+    width: 20rem;
+    height: 20rem;
+    border: 1rem solid #ffff;
+    border-radius: 50%;
+    position: relative;
+    margin: 2rem auto;
+}
+.clk-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+
+}
+.hour-hand{
+    width: 50%;
+    height: 5px;
+    background: #ffff;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    
+}
+.min-hand{
+    width: 50%;
+    height: 5px;
+    background: blue;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+.second-hand{
+    width: 50%;
+    height: 2px;
+    background: #F00101;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    
+    
+    
+}
